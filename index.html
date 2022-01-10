@@ -31,10 +31,39 @@
                 <a id="loginButton" href="https://cjacobs20.github.io/Community_basket/">Log In</a>
             </div>
             <h1>OR</h1>
+            <div class="modal" id="modal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Modal title</h5>
+                      <button type="button" id ="closebutton1" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Email/Username" aria-label="Search">
+                          </form>
+                        </div>
+                      </nav>
+                      <nav class="navbar">
+                        <div class="container-fluid">
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Search">
+                          </form>
+                        </div>
+                      </nav>
+                    <div class="modal-footer">
+                      <a href="https://cjacobs20.github.io/Community_basket/">
+                        <button type="button" class="btn btn-primary">Linky link link</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <div class="onbFang">
-                <img src="images/apple.png">
-                <img src="images/Facebook.png">
-                <img src="images/google.png">
+                <button type="button" id="button1" data-toggle="modal" data-target=".modal"><img src="images/apple.png" ></button>
+                <button type="button" id="button2" data-toggle="modal" data-target=".modal"><img src="images/Facebook.png"></button>
+                <button type="button" id="button3" data-toggle="modal" data-target=".modal"><img src="images/google.png"></button>
             </div>
     </div>
     </body>
