@@ -37,13 +37,13 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-/* button {
+button {
     background-color: Transparent;
     background-repeat:no-repeat;
     cursor:pointer;
     overflow: hidden;
     outline:none;
-} */
+}
 .buttonFrame {
     padding-left: 150px;
     padding-top: 20px;
